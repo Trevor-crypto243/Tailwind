@@ -92,3 +92,18 @@ tracking - letter spacing
 leading - line height
 
 ## Adding SVG Icons
+https://heroicons.com/ - copies the SVG code
+inline-block elements sit next to each other rather than stack on top
+
+
+## Hover Effects
+shadow-inner
+
+
+## Transitions
+moving to states smoothly, smoother interactions
+ transition  ease-out duration-500 //transition type, seconds
+
+## Transform
+Chnaging the scale
+transform hover:scale-125
