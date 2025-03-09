@@ -1,0 +1,24 @@
+{
+  "name": "net-ninja",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=bxmDnn7lrnk&list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw&index=1&t=14s",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i src/styles.css -o public/styles.css --watch",
+    "watch": "postcss src/styles.css -o public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.12",
+    "tailwindcss-primeui": "^0.4.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^3.4.17"
+  }
+}
