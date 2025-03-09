@@ -62,3 +62,33 @@ We can ovveride or extend these value
     - xl:1280px
 
 - can create a custom class for font-sizes across different screens
+
+
+## Badges
+- positioning absolute relative to the parent
+- give parent the relative class
+- give child the absolute class
+
+## Using @apply
+- Reducing a lot of classes
+- making multiple components
+- extracting the classes to an outside selector
+- making reusable components
+
+
+## Grids
+- laying items in colums and rows
+- similar to bootstrap grid
+- grid container
+- grid items
+
+- grid-cols-3 specify the number of grids you want your UI to have
+- displays on the x-axis by default
+
+
+
+## Buttons
+tracking - letter spacing
+leading - line height
+
+## Adding SVG Icons
